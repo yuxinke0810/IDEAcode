@@ -12,13 +12,15 @@ import java.util.Iterator;
 @Controller
 public class DeomController {
 
-    
+
 
     @GetMapping("/hello")
     @ResponseBody
     public String hello() {
 
         ArrayList<String> arrayList = new ArrayList<>();
+
+        System.out.println("11111");
 
         return "Hello World!!!";
 
